@@ -25,7 +25,7 @@ Esse projeto foi uma oportunidade para praticar:
 • Manipulação do DOM com JavaScript puro  
 • Noções de UX e design de interfaces atrativas  
 
-<h3>Demonstração</h3>
+<h3>Demonstração:</h3>
 
 <p>
   <img src="./assets/foto-projeto.png" width="600">
