@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: #ccee66;
+    color: #ffffff;
+    padding: 0px 140px;
+    height: 100vh;
+    overflow: hidden;
+    /* o que eu faço com o que sobra? ESCONDER */
+}
+
+body:before {
+    content: '';
+    background-color: #202020;
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    right: 500px;
+    transform: rotate(-70deg);
+}
+
+body:after {
+    content: 'Nike';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    font-weight: bold;
+    color: #151515;
+    opacity: 0.5;
+
+}
+
+.logo-nike {
+    width: 60px;
+    padding: 20px 0px 80px 0px;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo-nike {
+    font-size: 80px;
+    padding: 30px 0px;
+    font-weight: 500;
+}
+
+.preco-tenis {
+    font-size: 30px;
+}
+
+.container-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-right {
+    width: 60%;
+}
+
+.descricao {
+    width: 90%;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.botao-carrinho {
+    background-color: #a3be52;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    color: #000000;
+    cursor: pointer;
+}
+
+.botao-carrinho:hover {
+    background-color: #7a8e3c;
+}
+
+.tenis {
+    width: 80%;
+    transform: rotate(-25deg);
+    filter: drop-shadow(30px 45px 40px #161616);
+    margin-left: 60px;
+    transition: 1s;
+}
+
+.troca-efeito {
+    opacity: 0;
+    transform: rotate(-25deg) translateY(-30px);
+    /* faz o tenis subir */
+
+}
+
+.container-botoes {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.botao {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.botao:active {
+    opacity: 0.5;
+}
+
+.verde {
+    background-color: #ccee66;
+}
+
+.azul {
+    background-color: #58cced;
+}
+
+.rosa {
+    background-color: #ff9eb5;
+}
