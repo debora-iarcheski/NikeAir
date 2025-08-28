@@ -1,5 +1,7 @@
 let body = document.querySelector("body")
 let imagemTenis = document.querySelector(".tenis")
+let trocaBotao = document.querySelector(".botao-carrinho")
+
 
 
 function clicado(cor, imagem) {
@@ -15,7 +17,6 @@ function clicado(cor, imagem) {
     }, 500);
 
     // 1000 milisegundos = 1 segundo
-
-
+    trocaBotao.style.backgroundColor = cor
 
 }
